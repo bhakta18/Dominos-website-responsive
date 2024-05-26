@@ -1,0 +1,96 @@
+#container{
+   /* border: 1px solid red;*/
+    display: flex;
+   position: sticky;
+   top: 0%;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cards{
+   /* border: 1px solid blue;*/
+    width: 150px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    cursor: pointer;
+}
+h1{
+    color: blue;
+    cursor: pointer
+}
+h1:hover{
+    color: rgb(255, 217, 0);
+}
+.cards:hover{
+    color: rgb(255, 72, 0);
+}
+button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.cards button{
+   background-color: red;
+   color: white;
+}
+.cards button:hover{
+   
+    color:skyblue;
+}
+
+#content{
+   /* border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+}
+
+.card{
+ /*   border: 1px solid blue;*/
+    width: 400px;
+    height: 330px;
+    top: 60px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+#cont{
+  /* border: 1px solid red;*/
+   display: grid;
+   gap: 20px;
+   grid-template-columns: repeat(4,1fr);
+}
+.card1{
+   /* border: 1px solid blue;*/
+    width: 280px;
+    height: 220px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
+#logo{
+  /*  border: 1px solid red;*/
+    display: flex;
+    gap: 60px;
+    justify-content: space-around;
+}
+
+.card2{
+   /* border: 1px solid blue;*/
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
